@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <style>
+        /* 设置全局样式 */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* 顶栏样式 */
+        header {
+            background-color: #ffffff;
+            padding: 10px 40px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 10;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+	    font-weight:400
+            color: #333;
+        }
+
+        /* 内容容器样式 */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            flex-direction: column;
+            margin-top: 60px; /* 顶栏高度 */
+        }
+
+        /* 诗句样式 */
+        p {
+            font-size: 24px;
+            margin: 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <!-- 顶栏 -->
+    <header>
+        <h1> Bryce's</h1>
+    </header>
+
+    <!-- 页面内容 -->
+    <div class="container">
+        <p>目击众神死亡的草原上野花一片</p>
+    </div>
+</body>
+</html>
